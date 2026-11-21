@@ -1,0 +1,163 @@
+
+/* Sidebar Background */
+.sidebar-wrapper {
+    background-color: #101b35;
+    color: #ffffff;
+}
+
+
+/* Sidebar Header */
+.sidebar-header {
+    padding: 25px 20px;
+    border-bottom: 1px solid #263451;
+}
+
+.sidebar-header h4 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sidebar-header small {
+    color: #9caac3;
+    font-size: 12px;
+}
+
+
+/* Sidebar Menu */
+.sidebar-wrapper .metismenu {
+    padding: 15px 12px;
+    margin: 0;
+    list-style: none;
+}
+
+
+/* Menu List */
+.sidebar-wrapper .metismenu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+/* Menu Link */
+.sidebar-wrapper .metismenu li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    color: #b9c5d8;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+
+/* Menu Icon */
+.sidebar-wrapper .parent-icon {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+
+/* Menu Title */
+.sidebar-wrapper .menu-title {
+    font-size: 14px;
+}
+
+
+/* Hover Effect */
+.sidebar-wrapper .metismenu li a:hover {
+    background-color: #1d3155;
+    color: #ffffff;
+}
+
+
+/* Active Menu */
+.sidebar-wrapper .metismenu li.mm-active > a {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+
+/* Submenu */
+.sidebar-wrapper .metismenu ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.sidebar-wrapper .metismenu ul li a {
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+
+/* Scrollbar */
+.sidebar-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #526583 #101b35;
+}
+
+.sidebar-wrapper::-webkit-scrollbar {
+    width: 5px;
+}
+
+.sidebar-wrapper::-webkit-scrollbar-track {
+    background: #101b35;
+}
+
+.sidebar-wrapper::-webkit-scrollbar-thumb {
+    background: #526583;
+    border-radius: 10px;
+}
+
+
+/* Hide Submenu by Default */
+.sidebar-wrapper .metismenu ul {
+    display: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+
+/* Show Submenu */
+.sidebar-wrapper .metismenu li.open > ul {
+    display: block;
+}
+
+
+/* Submenu Arrow */
+.sidebar-wrapper .has-arrow::after {
+    content: "›";
+    margin-left: auto;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+/* Rotate Arrow When Open */
+.sidebar-wrapper .has-arrow.active::after {
+    transform: rotate(90deg);
+}
+
+
+/* Submenu Link */
+.sidebar-wrapper .metismenu ul li a {
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+
+/* Active Menu */
+.sidebar-wrapper .metismenu li > a.active {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+
+/* Active Submenu */
+.sidebar-wrapper .metismenu ul li a.active {
+    background-color: #1d3155;
+    color: #ffffff;
+}
+
